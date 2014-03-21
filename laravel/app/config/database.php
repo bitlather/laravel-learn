@@ -50,7 +50,7 @@ return array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
 			'database'  => 'laravel_learn',  # You need to create this database
-			'username'  => 'root',           # You should use better login credentials
+			'username'  => 'root',           # You should use better credentials
 			'password'  => '',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',

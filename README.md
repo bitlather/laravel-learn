@@ -34,3 +34,4 @@ Steps to create authentication
 * Create routes in _app/routes.php_
 * Update routing filters in _app/filters.php_ if necessary
 * Create layouts and views in _app/views_
+* Update users model to add creation validator in _app/models/User.php_

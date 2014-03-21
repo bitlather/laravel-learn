@@ -1,6 +1,8 @@
 Summary
 =======
 
+The branches in this repo show basic development using Laravel Framework version 4.1.24.
+
 This branch shows the basics of user sign up, log in, and log out using Laravel Framework version 4.1.24.
 
 

@@ -35,7 +35,12 @@ App::after(function($request, $response)
 
 Route::filter('auth', function()
 {
-	if (Auth::guest()) return Redirect::guest('login');
+	# Where to redirect guest to if they tried to go to a route that
+	# requires they were logged in.
+	# We have to change this line to log-in since that's our route.
+	# Feel free to just make the route login instead.
+	# I mostly did this to show how to configure filters.
+	if (Auth::guest()) return Redirect::guest('log-in');
 });
 
 

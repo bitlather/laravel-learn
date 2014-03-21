@@ -32,4 +32,5 @@ Steps to create authentication
 * Create schema for users table in _app/database/migrations/yyy_mm_dd_tttttt_create_users_table.php_
 * Run migration using `php artisan migrate`
 * Create routes in _app/routes.php_
-
+* Update routing filters in _app/filters.php_ if necessary
+* Create layouts and views in _app/views_

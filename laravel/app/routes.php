@@ -30,7 +30,7 @@ Route::match(
         if(Request::isMethod('post')){
             $credentials = array(
                 'email'     => Input::get('email'),
-                'password'  => Input::get('password')
+                'password'  => Input::get('password'),
                 'is_active' => true
                 );
             if(Auth::attempt($credentials)){

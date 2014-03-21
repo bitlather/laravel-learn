@@ -1,5 +1,11 @@
-Laravel - Installation
-======================
+Summary
+=======
+
+The branches in this repo show basic development using Laravel Framework version 4.1.24.
+
+
+Install Laravel
+---------------
 http://laravel.com/docs/installation
 
 Install composer:

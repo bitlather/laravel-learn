@@ -46,5 +46,5 @@ Steps to create authentication
 
 Challenges:
 
-* Create an account. Stay logged in. In database, set *is_active* to 0. Browser to a new page. User should be kicked out.
+* Create an account. Stay logged in. In database, set *is_active* to 0. Browse to a new page. User should be kicked out.
 * Add meaningful validation messages to log in screen when log in fails.

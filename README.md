@@ -29,5 +29,7 @@ Steps to create authentication
 * Create database for app.
 * Set database credentials in _app/config/database.php_.
 * Create user migration using `php artisan migrate:make create_users_table`
-* Create schema for users table in _app/databae/migrations/yyy_mm_dd_tttttt_create_users_table.php_
+* Create schema for users table in _app/database/migrations/yyy_mm_dd_tttttt_create_users_table.php_
 * Run migration using `php artisan migrate`
+* Create routes in _app/routes.php_
+

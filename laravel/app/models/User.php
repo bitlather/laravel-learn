@@ -45,6 +45,7 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
 				return false;
 			}
 
+			$user->is_active = 1;
 			$user->password = Hash::make($user->password);
 
 			return true;

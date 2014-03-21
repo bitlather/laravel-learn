@@ -1,5 +1,11 @@
-Laravel - Installation
-======================
+Summary
+=======
+
+This branch shows the basics of user sign up, log in, and log out using Laravel Framework version 4.1.24.
+
+
+Install Laravel
+---------------
 http://laravel.com/docs/installation
 
 Install composer:
@@ -26,12 +32,17 @@ View in browser:
 Steps to create authentication
 ------------------------------
 
-* Create database for app.
-* Set database credentials in _app/config/database.php_.
+* Create database for app - this code uses laravel_learn
+* Set database credentials in *app/config/database.php*
 * Create user migration using `php artisan migrate:make create_users_table`
-* Create schema for users table in _app/database/migrations/yyy_mm_dd_tttttt_create_users_table.php_
+* Create schema for users table in *app/database/migrations/yyy_mm_dd_tttttt_create_users_table.php*
 * Run migration using `php artisan migrate`
-* Create routes in _app/routes.php_
-* Update routing filters in _app/filters.php_ if necessary
-* Create layouts and views in _app/views_
-* Update users model to add creation validator in _app/models/User.php_
+* Create routes in *app/routes.php*
+* Update routing filters in *app/filters.php* if necessary
+* Create layouts and views in *app/views*
+* Update users model to add creation validator in *app/models/User.php*
+
+Challenges:
+
+* Create an account. Stay logged in. In database, set *is_active* to 0. Browser to a new page. User should be kicked out.
+* Add meaningful validation messages to log in screen when log in fails.

@@ -14,7 +14,7 @@ class CreateUsersTable extends Migration {
             $table->string('last_name');
             $table->text('password');
             # The user level salt is also stored in the password.
-            $table->boolean('is_active');
+            $table->integer('is_active');
             # You may also want to capture whether user has confirmed email
             # and have reset token and reset expiration date in case they
             # forget their password.

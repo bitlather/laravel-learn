@@ -31,7 +31,7 @@ Route::match(
             $credentials = array(
                 'email'     => Input::get('email'),
                 'password'  => Input::get('password'),
-                'is_active' => true
+                'is_active' => 1
                 );
             if(Auth::attempt($credentials)){
                 # Redirect to previously clicked page if got here by 

@@ -23,7 +23,7 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
 	{
 		parent::boot();
 
-		# Add filters to creating a user
+		# Add validation to creating a user
 		User::creating(function($user)
 		{
 			$validator = Validator::make(array(

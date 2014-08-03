@@ -64,8 +64,8 @@ return array(
 	| will not be safe. Please do this before deploying an application!
 	|
 	*/
-
-	'key' => 'cNqHHw3lImYQ98aJaVe4sKO0Pog06M1d',
+	# It's important that you change this value!
+	'key' => 'Aop8ii2bIfsaoPGu9gap1gja9gj9HhHq',
 
 	/*
 	|--------------------------------------------------------------------------
